@@ -41,6 +41,14 @@ class ApartmentGridComponent {
     return column;
   };
 
+  deleteApartment = (id) => {
+    API.deleteApartment(
+      id,
+      () => API.fetchApartments(this.saveApartments, alert),
+      alert
+    );
+  };
+
   render = () => {
     const { loading, apartments } = this.state;
     if (loading) {
@@ -48,12 +56,18 @@ class ApartmentGridComponent {
     } else if (apartments.length > 0) {
       this.htmlElement.innerHTML = "";
       const apartmentsElement = apartments
-        .map((item) => new ApartmentCardComponent(item))
+        .map(
+          ({ id, ...props }) =>
+            new ApartmentCardComponent({
+              ...props,
+              onDelete: () => this.deleteApartment(id),
+            })
+        )
         .map((item) => item.htmlElement)
         .map(this.columnWrapper);
       this.htmlElement.append(...apartmentsElement);
     } else {
-      this.htmlElement.innerHTML = `<h2>Šiuo metu butų nėra</h2>`;
+      this.htmlElement.innerHTML = `<h2>Šiuo metu nekilnojamo turto pasiūlymų nėra</h2>`;
     }
   };
 }

@@ -12,6 +12,7 @@ class ApartmentCardComponent {
       address: { city, country, street, number },
       price: { amount, currency },
       imgSrc,
+      onDelete,
     } = this.props;
 
     const USD_EUR = 0.87;
@@ -44,6 +45,11 @@ class ApartmentCardComponent {
  </li>
  
  </ul>
+<div class="text-center">
+ <button class="btn btn-danger" >Delete</button>
+ </div>
     `;
+    const btn = this.htmlElement.querySelector(".btn");
+    btn.addEventListener("click", onDelete);
   };
 }
