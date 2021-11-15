@@ -19,7 +19,7 @@ class ApartmentGridComponent {
           this.render();
         }
       );
-    }, 4000);
+    }, 1000);
 
   saveApartments = (apartments) => {
     this.state.apartments = apartments;

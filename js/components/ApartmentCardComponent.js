@@ -28,14 +28,14 @@ class ApartmentCardComponent {
   <img src="${imgSrc}" class="card-img-top"">
   <div class="card-body">
   <h2 class="h6 text-secondary" style="text-transform:uppercase">${type} for sale</h2>
-  <span>${street} - ${number}, ${city}, ${country}</span>
+  <div class="mb-1">${street} - ${number}, ${city}, ${country}</div>
 
 
   <div class="text-secondary"><strong>${roomCount} ${formatedRooms} | ${squares} m<sup>2</sup></strong></div>
   
      <div><strong>${formatedPrice}</strong></div>
  
- <ul style="list-style-type:none">
+ <ul class="mt-2"style="list-style-type:none">
  <li>
  Seller: ${fullname}
  </li>
