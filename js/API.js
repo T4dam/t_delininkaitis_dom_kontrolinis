@@ -13,3 +13,11 @@ class API {
       .catch(failure);
   };
 }
+
+// API.fetchApartments(console.log, console.error);
+
+// API.deleteApartment(
+//   "1",
+//   () => console.log("Ištrinta sėkmingai"),
+//   console.error
+// );
