@@ -19,11 +19,11 @@ class ApartmentGridComponent {
           this.render();
         }
       );
-    }, 1000);
+    }, 4000);
 
   saveApartments = (apartments) => {
     this.state.apartments = apartments;
-    this.state.loading = false;
+
     this.render();
   };
   init = () => {

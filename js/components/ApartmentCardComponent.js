@@ -20,16 +20,18 @@ class ApartmentCardComponent {
     const finalPrice = currency === "$" ? amount * USD_EUR : amount;
     const formatedPrice = Math.round(100 * finalPrice) / 100 + " €";
 
+    const formatedRooms = roomCount <= 1 ? "room" : "rooms";
+
     this.htmlElement = document.createElement("article");
     this.htmlElement.className = "card shadow";
     this.htmlElement.innerHTML = `
   <img src="${imgSrc}" class="card-img-top"">
   <div class="card-body">
-  <h2 class="h6">${type} for sale</h2>
+  <h2 class="h6 text-secondary" style="text-transform:uppercase">${type} for sale</h2>
   <span>${street} - ${number}, ${city}, ${country}</span>
 
 
-  <div><strong>${roomCount} rooms | ${squares} m<sup>2</sup></strong></div>
+  <div class="text-secondary"><strong>${roomCount} ${formatedRooms} | ${squares} m<sup>2</sup></strong></div>
   
      <div><strong>${formatedPrice}</strong></div>
  
@@ -38,10 +40,10 @@ class ApartmentCardComponent {
  Seller: ${fullname}
  </li>
  <li>
- Phone: ${phone}
+ Phone: <a href="mobile:${phone}" class="text-dark" style="text-decoration:none">${phone}</a>
  </li>
  <li>
- Phone: ${email}
+ Email:<a href="mailto:${email}"> ${email}</a>
  </li>
  
  </ul>

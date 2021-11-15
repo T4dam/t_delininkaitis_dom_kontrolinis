@@ -13,7 +13,7 @@
     "address": {
       "city": "Kaunas",
       "country": "Lithuania",
-      "street": "Kalnapilio g.",
+      "street": "Kalnapilio st.",
       "number": "3"
     },
     "price": {
@@ -35,14 +35,14 @@
     "address": {
       "city": "Klaipėda",
       "country": "Lithuania",
-      "street": "Jūros g.",
+      "street": "Jūros st.",
       "number": "15"
     },
     "price": {
       "amount": "70000",
       "currency": "€"
     },
-    "imgSrc": "https://aruodas-img.dgn.lt/object_62_100769097/vilnius-zirmunai-verkiu-g-1-room-flat-for.jpg"
+    "imgSrc": "https://aruodas-img.dgn.lt/object_62_100698113/klaipeda-centras-j-janonio-g-2-rooms.jpg"
   },
         {
     "id": "3",
@@ -57,7 +57,7 @@
     "address": {
       "city": "Vilnius",
       "country": "Lithuania",
-      "street": "Saulėtekio g.",
+      "street": "Saulėtekio st.",
       "number": "3"
     },
     "price": {
@@ -79,7 +79,7 @@
     "address": {
       "city": "Kaunas",
       "country": "Lithuania",
-      "street": "Kalnapilio g.",
+      "street": "Kalnapilio st.",
       "number": "3"
     },
     "price": {
@@ -101,7 +101,7 @@
     "address": {
       "city": "Šiauliai",
       "country": "Lithuania",
-      "street": "Saulės g.",
+      "street": "Saulės st.",
       "number": "39"
     },
     "price": {
