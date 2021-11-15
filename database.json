@@ -1,0 +1,114 @@
+{
+    "Apartment": [
+        {
+    "id": "1",
+    "type": "house",
+    "owner": {
+      "fullname": "Matautas Šakinauskas",
+      "email": "el@mailo.com",
+      "phone": "85334243"
+    },
+    "roomCount": 5,
+    "squares": 120,
+    "address": {
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "street": "Kalnapilio g.",
+      "number": "3"
+    },
+    "price": {
+      "amount": "122000",
+      "currency": "$"
+    },
+    "imgSrc": "https://aruodas-img.dgn.lt/object_62_100689103/palanga-palanga-ronzes-g-brick-house-for.jpg"
+  },
+        {
+    "id": "2",
+    "type": "flat",
+    "owner": {
+      "fullname": "Marta Kibinaitė",
+      "email": "marta@gmail.com",
+      "phone": "85334243"
+    },
+    "roomCount": 1,
+    "squares": 35,
+    "address": {
+      "city": "Klaipėda",
+      "country": "Lithuania",
+      "street": "Jūros g.",
+      "number": "15"
+    },
+    "price": {
+      "amount": "70000",
+      "currency": "€"
+    },
+    "imgSrc": "https://aruodas-img.dgn.lt/object_62_100769097/vilnius-zirmunai-verkiu-g-1-room-flat-for.jpg"
+  },
+        {
+    "id": "3",
+    "type": "cottage",
+    "owner": {
+      "fullname": "Bertas Svarainis",
+      "email": "bertas@yahoo.com",
+      "phone": "85334243"
+    },
+    "roomCount": 3,
+    "squares": 69,
+    "address": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "street": "Saulėtekio g.",
+      "number": "3"
+    },
+    "price": {
+      "amount": "100000",
+      "currency": "€"
+    },
+    "imgSrc": "https://aruodas-img.dgn.lt/object_62_85602899/palanga-vaivorykstes-g-3-rooms-flat-for-rent.jpg"
+  },
+        {
+    "id": "4",
+    "type": "house",
+    "owner": {
+      "fullname": "Janušas Muskas",
+      "email": "janus@gmail.com",
+      "phone": "85334243"
+    },
+    "roomCount": 7,
+    "squares": 200,
+    "address": {
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "street": "Kalnapilio g.",
+      "number": "3"
+    },
+    "price": {
+      "amount": "420000",
+      "currency": "$"
+    },
+    "imgSrc": "https://s.hdnux.com/photos/61/17/31/12908103/3/rawImage.jpg"
+  },
+        {
+    "id": "5",
+    "type": "flat",
+    "owner": {
+      "fullname": "Bučius Apdailauskas",
+      "email": "bucius@mail.com",
+      "phone": "85334243"
+    },
+    "roomCount": 5,
+    "squares": 90,
+    "address": {
+      "city": "Šiauliai",
+      "country": "Lithuania",
+      "street": "Saulės g.",
+      "number": "39"
+    },
+    "price": {
+      "amount": "122000",
+      "currency": "€"
+    },
+    "imgSrc": "https://aruodas-img.dgn.lt/object_62_77265703/vilnius-zverynas-pienines-g-2-rooms-flat.jpg"
+  }
+]
+}
