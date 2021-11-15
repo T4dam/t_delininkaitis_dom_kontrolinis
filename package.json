@@ -1,0 +1,23 @@
+{
+  "name": "tadas-delininkaitis-dom-test",
+  "version": "1.0.0",
+  "description": "Tado Delininkaičio kontrolinis DOM",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T4dam/t_delininkaitis_dom_kontrolinis.git"
+  },
+  "author": "Tadas Delininkaitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T4dam/t_delininkaitis_dom_kontrolinis/issues"
+  },
+  "homepage": "https://github.com/T4dam/t_delininkaitis_dom_kontrolinis#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
